@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-color: aqua;
+} */
+
+body, input, button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+input, button {
+    font-size: 16px;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  } */
+  
+.head_bar {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(7, 184, 169);
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#add-book-form{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#add-book-form h2{
+    text-align: center;
+    color: rgb(159, 214, 9);
+}
+
+#add-book-form form .input {
+        margin: 8px 0;
+    }
+
+#add-book-form form button {
+    background-color: rgb(15, 179, 97);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#add-book-form button span {
+    font-weight: bold;
+    color: black;
+}
+
+#add-book-form form .input input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#add-book-form form .input label {
+    color: rgb(9, 150, 155);
+    font-weight: bold;
+}
+
+#add-book-form form .input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+#add-book-form form .input_inline label {
+    color: rgb(9, 150, 155);
+    font-weight: bold;
+    margin-right: 10px;
+}
+  
+#bookshelves {
+    margin: 16px 0 0 0;
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+#bookshelves h2 {
+    color: rgb(7, 129, 167);
+}
+
+#bookshelves #unfinished-shelf,#finished-shelf {
+    padding: 16px;
+}
+  
+  /* #unfinished-shelf, #finished-shelf {
+    flex-basis: 48%;
+  } */
+
+h2 {
+    margin-bottom: 10px;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+  
+  /* #add-book-form {
+    margin-top: 20px;
+  } */
+  
+  /* label {
+    display: block;
+    margin-bottom: 5px;
+  } */
+  
